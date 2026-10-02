@@ -1,3 +1,4 @@
+# This is a multi-stage Dockerfile for building and running the Notification service.
 FROM node:22-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
